@@ -3,13 +3,13 @@ This repository contains data and resources related to the development and appli
 
 The repository includes, where applicable:
 
-    **Training datasets** generated from first-principles calculations
+    -**Training datasets** generated from first-principles calculations
   
-    **Machine-learning force field files** used for simulations
+    -**Machine-learning force field files** used for simulations
   
-    **Input/output data** associated with MLFF training and validation
+    -**Input/output data** associated with MLFF training and validation
   
-    **Scripts and utilities** used for data processing, training workflows, and analysis
+    -**Scripts and utilities** used for data processing, training workflows, and analysis
 
 The datasets were primarily generated using **on-the-fly machine-learning force-field (MLFF) simulations within VASP**, where the interatomic potentials are trained dynamically using ab initio energies and forces.
 
