@@ -1,0 +1,15 @@
+system = AgTeS6
+
+IBRION = 0
+MDALGO = 3
+NSW    = 100000
+ISIF   = 2
+LANGEVIN_GAMMA = 4 4 4
+ISYM   = 0
+TEBEG  = 300.0
+TEEND  = 300.0
+POTIM  = 0.5
+
+ML_LMLFF = .TRUE.
+ML_MODE = RUN
+
