@@ -1,7 +1,7 @@
 # MLFF
 This repository contains data and resources related to the development and application of **machine-learning force fields (MLFF)** for the materials systems studied in my work.
 
-The repository includes, where applicable::
+The repository includes, where applicable:
  - **Training datasets** generated from first-principles calculations
  - **Machine-learning force field files** used for simulations
  - **Input/output data** associated with MLFF training and validation
