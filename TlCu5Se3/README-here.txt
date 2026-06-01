@@ -1,8 +1,1 @@
-(phono3pyV401) pwd
-/scratch/prasad.tsu.jncasr/TlCu5Se3/VASP/ph-k222-exp-lat-relax/AIMD/MLFF-NVT-Langevin-T300K-600K/T300K-3/MLFF-RUN-T300K/longer-RUN/MLFF-for-GITHUB
-
-(phono3pyV401) mkdir T300K-3
-(phono3pyV401) cp ../../../../T300K-3/INCAR T300K-3/
-(phono3pyV401) cp ../../../../T300K-3/POSCAR T300K-3/
-(phono3pyV401) cp ../../../../T300K-3/ML_ABN T300K-3/
-
+The MLFF for TlCu₅Se₃ was developed using VASP's on-the-fly machine learning framework at 300 K. The training was carried out in three consecutive AIMD runs, each consisting of 2000 MD steps. After each run, the generated ML_AB file was used as the starting point for the next run, allowing the force field to be progressively refined. In total, the MLFF was trained over 6000 MD steps, during which 566 representative configurations were selected and incorporated into the training database. The resulting MLFF was subsequently employed for large-scale finite-temperature simulations exceeding 100 ps in duration.
